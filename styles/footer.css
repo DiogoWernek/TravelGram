@@ -5,6 +5,14 @@ footer {
   display: flex;
   
   font: 14px/150% var(--font-family);
+
+  @media (max-width: 540px) {
+    font-size: 10px;
+  }
+
+  @media (max-width: 420px) {
+    font-size: 7px;
+  }
 }
 
 footer span:nth-child(1) {

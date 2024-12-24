@@ -8,11 +8,32 @@ header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 816px) {
+    gap: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  @media (max-width: 600px) {
+    align-items: center;
+  }
+
+  @media (max-width: 414px) {
+    h1{
+      text-align: center;
+    }
+  }
 }
 
 #profile {
   gap: 32px;
   display: flex;
+
+  @media (max-width: 600px) {
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 #profile > div {
@@ -40,6 +61,10 @@ header .container {
   display: flex;
   list-style: none;
   flex-direction: column;
+
+  @media (max-width: 970px) {
+    width: 145px;
+  }
 }
 
 #info li {

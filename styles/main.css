@@ -4,9 +4,19 @@ main {
   gap: 24px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+
+  @media (max-width: 568px) {
+    justify-content: center;
+  }
 }
 
 main img { 
   width: 286px;
   height: 286px;
+
+  @media (max-width: 568px) {
+    width: 286px;
+    height: 286px;
+  }
 }

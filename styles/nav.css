@@ -6,6 +6,10 @@ nav {
   justify-content: space-between;
   
   line-height: 0;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 nav ul {
@@ -15,6 +19,14 @@ nav ul {
   display: flex;
   list-style: none;
   align-items: center;
+
+  @media (max-width: 388px) {
+    font-size: 12px;
+  }
+
+  @media (max-width: 341px) {
+    font-size: 10px;
+  }
 }
 
 nav ul li:last-child img {
