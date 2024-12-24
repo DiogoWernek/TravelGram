@@ -1,7 +1,9 @@
 footer {
-  display: flex;
-  gap: 24px;
   padding-block: 24px;
+  
+  gap: 24px;
+  display: flex;
+  
   font: 14px/150% var(--font-family);
 }
 

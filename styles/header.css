@@ -1,17 +1,18 @@
 header {
   padding-block: 32px;
+  
   font: var(--text-md);
 }
 
 header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 #profile {
-  display: flex;
   gap: 32px;
+  display: flex;
 }
 
 #profile > div {
@@ -21,26 +22,29 @@ header .container {
 #profile img {
   width: 176px;
   height: 176px;
+  
   border-radius: 50%;
 }
 
 #profile h1 {
+  margin-bottom: 8px;
+  
   font: var(--text-lg);
   color: var(--text-color-primary);
-  margin-bottom: 8px;
 }
 
 #info {
   width: 280px;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
+  
   gap: 16px;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
 }
 
 #info li {
+  gap: 8px;
   display: flex;
   align-items: center;
-  gap: 8px;
 }
 
